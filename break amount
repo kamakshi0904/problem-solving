@@ -1,0 +1,13 @@
+public class BreakAmount {
+    public static void main(String[] args) {
+        int amount = 3700;
+        int thousands = amount / 1000;
+        int remainder = amount % 1000;
+        int fiveHundreds = remainder / 500;
+        int remaining = remainder % 500;
+
+        System.out.println("1000s: " + thousands);
+        System.out.println("500s: " + fiveHundreds);
+        System.out.println("Remaining: " + remaining);
+    }
+}
